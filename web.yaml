@@ -1,6 +1,7 @@
 ---
 - hosts: webserver
-  tasks:
+  roles:
+   -webserver
   
   
   
