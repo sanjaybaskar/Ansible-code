@@ -1,5 +1,5 @@
 - name: This task is to install httpd
   become: true
   yum:
-    name: httpd
-    state: present
+    name: "{package_name}"
+    state: "{package_state}"
