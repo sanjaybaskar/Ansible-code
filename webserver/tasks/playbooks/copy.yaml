@@ -1,0 +1,5 @@
+- name: copy index.html to target
+  become: true
+  copy:
+     src: index.html
+     dest: /var/www/html
